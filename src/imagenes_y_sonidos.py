@@ -2,10 +2,11 @@ import pygame
 from configuraciones import *
 
 try:
-    icono_juego = pygame.image.load(r"./src\resources\img\icono_juego.png")
-
     fondo_menus = pygame.image.load(r"./src\resources\img\fondo_menu_principal.jpg")
     fondo_menus = pygame.transform.scale(fondo_menus, resolucion_de_pantalla)
+    
+    fondo_menu_perdiste = pygame.image.load(r"./src\resources\img\imagen_fondo_perdiste.jpg")
+    fondo_menu_perdiste = pygame.transform.scale(fondo_menu_perdiste, resolucion_de_pantalla)
     
     ravenclaw = pygame.image.load(r"./src\resources\img\Ravenclaw.jpg")
     ravenclaw = pygame.transform.scale(ravenclaw, (250,250))

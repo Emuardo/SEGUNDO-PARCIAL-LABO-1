@@ -10,7 +10,7 @@ LARGO_JUGADOR = 48
 
 resolucion_de_pantalla = (ancho,largo)
 
-FPS = 60
+FPS = 40
 
 ### PALETA DE COLORES ###
 
